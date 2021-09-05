@@ -70,5 +70,5 @@ export const setCell = (y:number , x:number) => {
 
 export const PixelPainterStore = new Store<PixelPainterStoreType>({
   canvas: createEmptyCanvas(),
-  currcolor: ""
+  currcolor: '#000000'
 })
